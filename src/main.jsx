@@ -75,7 +75,7 @@ function App(){
     <main id="top">
       <section className="hero">
         <div className="hero-copy"><div className="eyebrow"><span className="live-dot"/> A HANDS-ON INTRODUCTION TO MACHINE LEARNING</div><h1>Make data make<br/><em>sense.</em></h1><p>Stop treating machine learning like a black box. Change the inputs, run an algorithm, and watch patterns emerge in real time.</p><div className="hero-actions"><a className="primary-btn" href="#playground">Enter the playground <ChevronRight size={17}/></a><span className="micro-note"><Sparkles size={14}/> No setup. Just curiosity.</span></div></div>
-        <div className="hero-art" aria-hidden="true"><div className="orbit orbit-one"/><div className="orbit orbit-two"/><div className="orbit orbit-three"/><div className="art-core"><BrainCircuit size={58} strokeWidth={1.15}/></div>{Array.from({length:22},(_,i)=><i key={i} className={`particle p${i+1}`}/)}<div className="art-label label-a">INPUT DATA <span>●●●</span></div><div className="art-label label-b">PATTERN FOUND <span>↗</span></div></div>
+        <div className="hero-art" aria-hidden="true"><div className="orbit orbit-one"/><div className="orbit orbit-two"/><div className="orbit orbit-three"/><div className="art-core"><BrainCircuit size={58} strokeWidth={1.15}/></div>{Array.from({length:22},(_,i)=><i key={i} className={`particle p${i+1}`}/>)}<div className="art-label label-a">INPUT DATA <span>●●●</span></div><div className="art-label label-b">PATTERN FOUND <span>↗</span></div></div>
       </section>
 
       <section className="experiment" id="playground">
